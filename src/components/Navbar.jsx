@@ -50,16 +50,19 @@ export default function Navbar() {
                 <div className="hidden sm:ml-6 sm:block backdrop-blur-2xl">
                   <div className="flex space-x-4 w-[650px] p-5  ">
                     {navigation.map((item) => (
-                      <Link
+                      <NavLink
                         key={item.name}
                         to={item.to}
+                        style={({ isActive }) => ({
+                          color: isActive && "red",
+                        })}
                         className={classNames(
                           "px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
-                      </Link>
+                      </NavLink>
                     ))}
                   </div>
                 </div>
