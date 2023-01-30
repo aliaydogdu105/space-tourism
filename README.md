@@ -1,6 +1,50 @@
-# Getting Started with Create React App
+# Space Tourism
+
+This project was made with React. Styled with Tailwind. The data was pulled from the local data file. The project idea was taken from "www.frontendmentor.io".
+
+For look [please click here](https://space-tourism-react-ali.netlify.app/)
+
+![](space-tourism.gif)
 
 Project Figma Link = [figma_link](https://www.figma.com/file/VeX2ZJLDtHo7HzsUYjgnJU/space-tourism-website?node-id=0%3A1294&t=AHOjv3wjtBYBGOhX-0)
+
+## Project Skeleton
+
+```
+Space Tourism
+|
+├── public
+│     └── index.html
+├── src
+│    ├── assets
+│    │     ├── crew
+│    │     ├── destination
+│    │     ├── home
+│    │     ├── shared
+│    │     └── technology
+│    ├── components
+│    │     ├── ActiveCard.jsx
+│    │     └── Navbar.jsx
+│    ├── pages
+│    │     ├── Crew.jsx
+│    │     ├── Destination.jsx
+│    │     ├── Home.jsx
+│    │     └── Technology.jsx
+│    ├── router
+│    │     └── AppRouter.jsx
+│    ├── App.js
+│    ├── App.css
+│    ├── index.js
+│    ├── index.css
+│    └── data.json
+├── package.json
+|----README.md
+├── tailwind.config.js
+├── space-tourism.gif
+└── yarn.lock
+```
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
